@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  color: red;
+}
+
+h4 {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.form__wrapper {
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid lightgray;
+}
+
+input[type="email"] {
+  width: 405px;
+  padding: 5px;
+  border: 1px solid lightgray;
+}
+
+select {
+  width: 405px;
+  padding: 5px;
+  border: 1px solid lightgray;
+}
+
+textarea {
+  width: 405px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid lightgray;
+}
+
+input[type="submit"] {
+  width: 405px;
+  padding: 8px;
+  border: none;
+  background-color: rgb(62, 135, 156);
+  color: white;
+}

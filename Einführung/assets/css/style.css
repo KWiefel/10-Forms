@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.vorname {
+  background-color: aqua;
+  border-radius: 50px;
+  width: 300px;
+  border: none;
+  font-size: 32px;
+  padding: 25px;
+}
+
+.vorname:focus {
+  outline: 8px dotted pink;
+}
+
+/* .vorname::placeholder {
+  color: lightcoral;
+} */
+
+input[type="email"] {
+  background-color: red;
+}

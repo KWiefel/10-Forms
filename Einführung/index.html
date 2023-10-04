@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10_HTML_Forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <h1>HTML Forms</h1>
+    <section>
+      <!-- Container für das Kontaktformular -->
+      <form action="">
+        <div>
+          <label for="vorname">Vorname:</label>
+          <input
+            type="text"
+            name="vorname"
+            id="vorname"
+            class="vorname"
+            required
+            placeholder="Vorname"
+          />
+        </div>
+        <div>
+          <label for="nachname">Nachname:</label>
+          <input
+            type="text"
+            name="nachname"
+            id="nachname"
+            class="nachname"
+            required
+            placeholder="Nachname"
+          />
+        </div>
+        <div>
+          <label for="email">E-Mail:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="email"
+            required
+            placeholder="E-Mail"
+          />
+        </div>
+        <div>
+          <label for="age">Alter:</label>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            class="age"
+            required
+            placeholder="Alter"
+            min="21"
+            max="80"
+          />
+        </div>
+        <div>
+          <label for="password">Passwort</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="password"
+            required
+            placeholder="Passwort"
+          />
+        </div>
+        <div>
+          <label for="tel">Telefon</label>
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            class="tel"
+            required
+            placeholder="Telefon"
+          />
+        </div>
+        <div>
+          <h3>Wähle einen Termin</h3>
+          <label for="date">Datum</label>
+          <input type="date" name="date" id="date" class="date" required />
+        </div>
+        <div>
+          <h3>Radio Buttons - Gender</h3>
+          <label for="female">Weiblich</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="male">Männlich</label>
+          <input type="radio" name="gender" id="male" />
+          <label for="other">Divers</label>
+          <input type="radio" name="gender" id="other" />
+        </div>
+        <div>
+          <h3>Checkboxen - Hobbys</h3>
+          <label for="smoking">Rauchen</label>
+          <input type="checkbox" name="" id="smoking" />
+          <label for="sleeping">Schlafen</label>
+          <input type="checkbox" name="" id="sleeping" />
+          <label for="eating">Essen</label>
+          <input type="checkbox" name="" id="eating" />
+        </div>
+        <div>
+          <h3>Bitte Lade deinen Lebenslauf hoch</h3>
+          <label for="file">Datei:</label>
+          <input type="file" name="file" id="file" />
+        </div>
+        <div>
+          <label for="knowledge">Kentnisse:</label>
+          <input
+            type="range"
+            name="knowledge"
+            id="knowledge"
+            min="0"
+            max="100"
+            step="10"
+          />
+        </div>
+        <div>
+          <h3>Wähle eine Uhrzeit</h3>
+          <label for="time">Wähle aus:</label>
+          <select name="time" id="time">
+            <option value="">11 Uhr</option>
+            <option value="">12 Uhr</option>
+            <option value="">13 Uhr</option>
+            <option value="">14 Uhr</option>
+            <option value="">15 Uhr</option>
+          </select>
+        </div>
+        <div>
+          <h3>Sonstige Anmerkungen:</h3>
+          <textarea name="" id="textarea" cols="50" rows="10"></textarea>
+        </div>
+        <div>
+          <h3>Submit - Button</h3>
+          <input type="submit" value="Abschicken" />
+        </div>
+        <div>
+          <h3>Button:</h3>
+          <input type="button" value="Drück mich" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
